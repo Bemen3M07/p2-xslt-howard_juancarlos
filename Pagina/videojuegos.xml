@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<videojuegos>
+    <videojuego>
+        <titulo> Red Dead Redemption 2 </titulo>
+        <img> ../Imagenes/rdr2.jpg </img>
+        <sinopsis>Red Dead Redemption 2 es un videojuego de acción-aventura de mundo abierto con temática del Salvaje Oeste desarrollado y 
+        publicado por Rockstar Games. El juego es la tercera entrega de la serie Red Dead y una precuela del juego de 2010 Red Dead Redemption. 
+        La historia está ambientada en una representación ficticia de los Estados Unidos en el Salvaje Oeste y sigue las hazañas de Arthur Morgan, 
+        un forajido y miembro de la pandilla de Dutch Van der Linde, que debe lidiar con el declive del Salvaje Oeste mientras intenta sobrevivir 
+        contra las fuerzas gubernamentales, las pandillas rivales y otros adversarios.</sinopsis>
+    </videojuego>
+    <videojuego>
+        <titulo> The Last of Us: Parte 2 </titulo>
+        <img> ../Imagenes/tlou2.jpg </img>
+        <sinopsis>Cinco años después de su peligroso viaje a través de unos Estados Unidos pospandemia, Ellie y Joel logran establecerse en Jackson,
+        Wyoming. Vivir entre una próspera comunidad de sobrevivientes les ha concedido paz y estabilidad, a pesar de la amenaza constante de los 
+        infectados y de otros sobrevivientes más desesperados.Cuando un evento traumático interrumpe esa paz, Ellie se embarca en un viaje incesante
+        para obtener justicia y llegar a un cierre. A medida que caza a los responsables uno por uno, deberá enfrentarse a las devastadoras
+        repercusiones físicas y emocionales de sus acciones.</sinopsis>
+    </videojuego>
+    <videojuego>
+        <titulo> The Witcher 3: Wild Hunt </titulo>
+        <img> ../Imagenes/thewitcher3.jpg </img>
+        <sinopsis>Es un juego R.P.G. en tercera persona. El jugador controla al protagonista Geralt de Rivia, un cazador de monstruos conocido 
+        como Lobo Blanco, es un brujo, el cual emprende un largo viaje a través de Los reinos del norte. El jugador lucha contra el peligroso
+        mundo mediante magia y espadas, mientras interactúa con los NPC y completa tanto misiones secundarias como la misión principal de la historia,
+        La cual es encontrar a la hija adoptiva de Geralt, Ciri, y detener la profecía del invierno blanco.El juego ha sido aclamado por la crítica y
+        ha obtenido un éxito financiero, vendiendo más de 6 millones de copias en seis semanas. También ha ganado múltiples premios al mejor juego
+        del año, otorgado por diversas revistas especializadas, por críticos y por galas de premios, incluyendo el Golden Joystick Awards, 
+        The Game Awards y Game Developers Choice Awards.</sinopsis>
+    </videojuego>
+    <videojuego>
+        <titulo> Baldur’s Gate 3 </titulo>
+        <img> ../Imagenes/baldurs3.jpg </img>
+        <sinopsis>Ambientada en el año 1492 DR, más de 120 años después de los eventos de Baldur's Gate II: Shadows of Amn y meses después de Baldur's 
+        Gate: Descent into Avernus, la trama de Baldur's Gate III se desarrolla en un contexto en el que las fuerzas oscuras están en ascenso. 
+        El personaje jugable ha sido capturado por los Mind Flayers, quienes han iniciado una invasión de Faerûn. Estos seres han implantado en el 
+        protagonista, así como en numerosas otras criaturas, tadpoles ilithid, parásitos capaces de controlar y transformar a sus huéspedes en Mind 
+        Flayers. Sin embargo, antes de que pueda completarse la transformación, la nave voladora Nautiloid en la que se encuentran es atacada por 
+        guerreros githyanki y sus dragones rojos, huyendo a través de varios reinos, incluyendo Avernus, el primero de los Nueve Infiernos. 
+        Durante el conflicto, el protagonista logra liberarse y dirige la nave dañada de vuelta a Faerûn, donde se estrella.</sinopsis>
+    </videojuego>
+    <videojuego>
+        <titulo> Metal Gear Solid </titulo>
+        <img> ../Imagenes/metalgearsolid.jpg </img>
+        <sinopsis>FOXHOUND, una unidad genéticamente mejorada de fuerzas especiales,​ armó un levantamiento armado en una isla remota ubicada en el 
+        archipiélago Fox de Alaska.​ Esta isla, con nombre en código Shadow Moses, es el sitio de una instalación de almacenamiento de armas nucleares.​ 
+        La unidad terrorista, encabezada por un mercenario conocido como Liquid Snake,​ tomó el control de un tanque bípedo con capacidad nuclear 
+        llamado Metal Gear REX, y amenazan al Gobierno de los Estados Unidos con una represalia nuclear, si no reciben en menos de 24 horas los restos
+        del soldado legendario Big Boss.</sinopsis>
+    </videojuego>
+    <videojuego>
+        <titulo> The Legend of Zelda: Ocarina of Time </titulo>
+        <img> ../Imagenes/tlozocarina.jpg </img>
+        <sinopsis>La historia del juego se enfoca en el joven héroe Link, quien emprende una aventura en el reino de Hyrule para detener a Ganondorf,
+        rey de la tribu Gerudo, antes de que encuentre la Trifuerza, una reliquia sagrada capaz de concederle cualquier deseo a su poseedor. 
+        Para ello, debe viajar a través del tiempo y explorar varios calabozos con el fin de despertar a algunos sabios que tienen el poder para 
+        aprisionar de forma definitiva a Ganondorf. Es importante mencionar que la música juega un papel muy importante en la trama del juego, puesto 
+        que el jugador tiene que aprender a tocar varias canciones con una ocarina. Incluso, la popularidad de Ocarina of Time incrementó de forma 
+        significativa las ventas de ocarinas reales.</sinopsis>
+    </videojuego>
+    <videojuego>
+        <titulo> God of War Ragnarok </titulo>
+        <img> ../Imagenes/gowragnarok.jpg </img>
+        <sinopsis>Aproximadamente tres años después de los eventos de God of War (2018), el Fimbulvetr está llegando a su fin y se profetiza que este 
+        dará paso al temido Ragnarök. Atreus, ahora adolescente, aún busca respuestas sobre su identidad como Loki, así como una forma de evitar que 
+        suceda el Ragnarök. Para descubrir la verdad, Kratos y Atreus buscarán al dios nórdico de la guerra, Tyr, que se creía muerto. 
+        Mientras atraviesan los nueve reinos, el dúo debe enfrentar nuevas amenazas, incluido Thor, el enfurecido Dios del Trueno, y Freya, 
+        su antigua aliada, que busca venganza tras la muerte de su hijo Baldur a manos de Kratos.</sinopsis>
+    </videojuego>
+    <videojuego>
+        <titulo> Cyberpunk 2077 </titulo>
+        <img> ../Imagenes/cyberpunk2077.jpg </img>
+        <sinopsis>En el juego el jugador será arrojado a este oscuro futuro. La metrópolis de Night City es un lugar creado para contarnos la historia 
+        de un individuo que creció en sus calles y que trata de levantarse y encontrar un modo de sobrevivir entre las mafias locales y las 
+        megacorporaciones, en una ciudad de suciedad y decadencia.Drogas, violencia, pobreza y exclusión no han desaparecido en el año 2077 y la gente 
+        ha seguido estando como lo era hace siglos, egoísta, de mente cerrada y débil. Pero no sólo los fantasmas del pasado preocupan a la humanidad, 
+        sino que nuevos problemas han aparecido. Los psicópatas se acumulan, y las calles están llenas de adictos a una nueva forma de entretenimiento: 
+        el Braindance, una forma barata de experimentar las emociones y el estímulo de otras personas que viven una vida más emocionante.</sinopsis>
+    </videojuego>
+    <videojuego>
+        <titulo> Bloodborne </titulo>
+        <img> ../Imagenes/bloodborne.jpg </img>
+        <sinopsis>Bloodborne tiene lugar en la antigua ciudad de Yharnam, conocida por albergar un remedio médico hecho con un transplante de sangre, 
+        una "panacea" que se dice puede curar cualquier enfermedad. Durante años, muchos viajeros peregrinaron hacia allá buscando un remedio para sus 
+        males, siendo el cazador uno de ellos. Al llegar allí, no obstante, se descubrió que fue invadida por una plaga que ha transformado a la mayor 
+        parte de su población en bestias terroríficas.</sinopsis>
+    </videojuego>
+    <videojuego>
+        <titulo> God of War (2018) </titulo>
+        <img> ../Imagenes/gow2018.jpg </img>
+        <sinopsis>Kratos, que ha dejado atrás el mundo de los dioses, deberá adaptarse a tierras que no le son familiares, afrontar peligros 
+        inesperados y aprovechar una segunda oportunidad de ejercer como padre. Junto a su hijo Atreus se aventurará en lo más profundo e inclemente 
+        de las tierras de Midgard y luchará por culminar una búsqueda profundamente personal.</sinopsis>
+    </videojuego>
+    <videojuego>
+        <titulo> The Legend of Zelda: Tears of the Kingdom </titulo>
+        <img> ../Imagenes/tlof.jpg </img>
+        <sinopsis>Tras los acontecimientos de Breath of the Wild, Link y Zelda exploran un pasadizo secreto bajo el castillo de Hyrule. 
+        Encuentran a un Ganondorf momificado atado por un brazo incorpóreo. Ganondorf vuelve a la vida y golpea a Link con una oleada de Aura, 
+        descomponiendo la Espada Maestra y dejando el brazo derecho de Link ennegrecido y sin vida. Ganondorf envía una oleada de oscuridad que 
+        hace que el castillo de Hyrule se eleve hacia el cielo antes de caer bajo tierra. Zelda también cae al abismo y desaparece en un destello de luz. 
+        Link es agarrado por el brazo incorpóreo y teletransportado.</sinopsis>
+    </videojuego>
+    <videojuego>
+        <titulo> Metal Gear Solid 3: Snake Eater </titulo>
+        <img> ../Imagenes/mgs3.jpg </img>
+        <sinopsis>Metal Gear Solid 3: Snake Eater (メタルギアソリッド3 スネークイーター Metaru Gia Soriddo Surī Sunēku Ītā, comúnmente abreviado como MGS3)​ 
+        es un videojuego de acción, aventura e infiltración dirigido por Hideo Kojima y producido por la subsidiaria Konami Computer Entertainment Japan 
+        para la consola PlayStation 2.​ El juego salió al mercado el 17 de noviembre de 2004 en Norte América, el 16 de diciembre de 2004 in Japón; el 4 
+        de marzo de 2005 en Europa y el 17 de marzo de 2005 en Australia. El juego funge como una precuela para toda la serie de Metal Gear,​ y fue seguido 
+        de cuatro secuelas directas: Metal Gear Solid: Portable Ops,​ Metal Gear Solid: Peace Walker, Metal Gear Solid V: Ground Zeroes, y Metal Gear Solid 
+        V: The Phantom Pain. Para agosto del 2005 se registró que Metal Gear Solid 3:Snake Eater, se habría convertido en un éxito en ventas con un total 
+        de 3.6 millones de copias vendidas en ese momento.​ Mientras que para 2014 las ventas totales del juego habrían superado los 6 millones de unidades.</sinopsis>
+    </videojuego>
+</videojuegos>
