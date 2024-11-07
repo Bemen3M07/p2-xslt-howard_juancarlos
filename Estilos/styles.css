@@ -1,6 +1,5 @@
 /* Estilo básico */
 body {
-    font-family: Arial, sans-serif;
     background-color: #ffe6e6; /* Fondo pastel */
     color: #4d0000; /* Texto en tono rojo oscuro */
     margin: 0;
@@ -9,6 +8,8 @@ body {
 
 /* Estilos para el encabezado */
 header {
+    font-family: 'Bernier', sans-serif;
+    font-size: 20px;
     text-align: center;
     background-color: #b30000; /* Rojo fuerte para header */
     color: #ffe6e6; /* Texto claro */
@@ -28,6 +29,7 @@ ol {
 
 /* Estilos para el footer */
 footer {
+    font-family: 'Alegreya-Sans', sans-serif;
     background-color: #b30000; /* Rojo fuerte para footer */
     color: #ffcccc; /* Texto claro en footer */
     text-align: center;
@@ -47,6 +49,7 @@ footer a:hover {
 
 /* Estilo para el botón "Cerrar todos" */
 .closeAllBtn {
+    font-family: 'Bernier', sans-serif;
     background-color: #990000; /* Rojo intenso */
     color: #ffe6e6; /* Texto claro */
     padding: 10px 20px;
@@ -77,8 +80,9 @@ footer a:hover {
 
 /* Título del videojuego como botón */
 .videojuego-title {
+    font-family: 'Bernier', sans-serif;
     display: inline-block;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: bold;
     color: #ffe6e6; /* Texto claro */
     background-color: #990000; /* Rojo intenso */
@@ -103,6 +107,7 @@ footer a:hover {
 
 /* Contenedor de información e imagen */
 .videojuego-info {
+    font-family: 'Alegreya-Sans', sans-serif;
     display: flex;
     align-items: center;
 }
@@ -125,3 +130,17 @@ footer a:hover {
     text-align: justify;
     color: #4d0000; /* Texto en tono oscuro */
 }
+
+  @font-face {
+    font-family: 'Bernier'; /* Nombre que le darás a la fuente */
+    src: url('../Fuentes_texto/Bernier/Commercial/OTF/BERNIERRegular-Regular.otf') format('truetype'); /* Asegúrate de ajustar la ruta al archivo de la fuente */
+    font-weight: normal; /* O puedes especificar bold si es una versión negrita */
+    font-style: normal; /* O italic si es una versión en cursiva */
+  }
+
+  @font-face {
+    font-family: 'Alegreya-Sans'; /* Nombre que le darás a la fuente */
+    src: url('../Fuentes_texto/alegreya-sans/AlegreyaSans-Medium.ttf') format('truetype'); /* Asegúrate de ajustar la ruta al archivo de la fuente */
+    font-weight: normal; /* O puedes especificar bold si es una versión negrita */
+    font-style: normal; /* O italic si es una versión en cursiva */
+  }
