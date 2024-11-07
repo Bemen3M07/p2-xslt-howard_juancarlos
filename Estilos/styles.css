@@ -1,7 +1,8 @@
 /* Estilo básico */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f5;
+    background-color: #ffe6e6; /* Fondo pastel */
+    color: #4d0000; /* Texto en tono rojo oscuro */
     margin: 0;
     padding: 0;
 }
@@ -9,8 +10,8 @@ body {
 /* Estilos para el encabezado */
 header {
     text-align: center;
-    background-color: #34495e;
-    color: #fff;
+    background-color: #b30000; /* Rojo fuerte para header */
+    color: #ffe6e6; /* Texto claro */
     padding: 20px 0;
 }
 
@@ -25,13 +26,52 @@ ol {
     padding: 0;
 }
 
+/* Estilos para el footer */
+footer {
+    background-color: #b30000; /* Rojo fuerte para footer */
+    color: #ffcccc; /* Texto claro en footer */
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+    margin-top: 100px;
+}
+
+footer a {
+    color: #ffcccc; /* Enlaces en el footer */
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff9999; /* Efecto hover en enlaces */
+}
+
+/* Estilo para el botón "Cerrar todos" */
+.closeAllBtn {
+    background-color: #990000; /* Rojo intenso */
+    color: #ffe6e6; /* Texto claro */
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease;
+    float: right; /* Alinea el botón a la derecha */
+    margin-right: 35px;
+}
+
+.closeAllBtn:hover {
+    background-color: #b30000; /* Rojo más claro en hover */
+}
+
 /* Contenedor del videojuego */
 .videojuego-container {
     margin: 20px auto;
     padding: 10px;
     max-width: 1400px;
-    background-color: #ecf0f1;
-    border: 1px solid #ccc;
+    background-color: #ffcccc; /* Fondo suave para contenedores */
+    border: 1px solid #b30000;
     border-radius: 8px;
 }
 
@@ -40,18 +80,17 @@ ol {
     display: inline-block;
     font-size: 1.2em;
     font-weight: bold;
-    color: #2c3e50;
-    background-color: #2980b9;
+    color: #ffe6e6; /* Texto claro */
+    background-color: #990000; /* Rojo intenso */
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
-    color: #fff;
 }
 
 .videojuego-title:hover {
-    background-color: #3498db;
+    background-color: #b30000; /* Rojo más claro en hover */
 }
 
 /* Contenido desplegable */
@@ -74,7 +113,8 @@ ol {
     height: 200px;
     margin-right: 27px;
     border-radius: 5px;
-    object-fit: cover; /* Asegura que la imagen se ajuste sin distorsionar */
+    object-fit: cover;
+    border: 2px solid #990000; /* Borde rojo */
 }
 
 /* Descripción del videojuego */
@@ -83,5 +123,5 @@ ol {
     margin: 0;
     line-height: 1.5;
     text-align: justify;
-    margin-right: 20px;
+    color: #4d0000; /* Texto en tono oscuro */
 }

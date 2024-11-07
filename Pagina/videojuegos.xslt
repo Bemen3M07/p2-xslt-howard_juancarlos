@@ -10,9 +10,10 @@
             </head>
             <body>
                 <header>
-                    <h1>Lista de Videojuegos</h1>
+                    <h1>Mejores historias en Videojuegos</h1>
                 </header>
                 <main>
+
                     <ol>
                         <xsl:for-each select="videojuegos/videojuego">
                             <li class="videojuego-container">
@@ -28,10 +29,14 @@
                             </li>
                         </xsl:for-each>
                     </ol>
+                <button class="closeAllBtn" onclick="cerrarTodos()">Cerrar todos</button>
                 </main>
                 <footer>
-                    <!-- Footer opcional -->
+                    <p>2024 Lista de Videojuegos. Todos los derechos reservados.</p>
+                    <p>Contacto: <a href="mailto:jomech23@bemen3.cat">jomech23@bemen3.cat</a></p>
                 </footer>
+
+                <script src="../Scripts/script_cerrarTodoButn.js"></script>
                 <script src="../Scripts/script_desplegable.js"></script>
             </body>
         </html>
