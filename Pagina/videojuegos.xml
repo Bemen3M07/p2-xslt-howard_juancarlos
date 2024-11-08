@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="videojuegos.xslt"?>
-<videojuegos>
-    <videojuego>
-        <titulo> Red Dead Redemption 2 </titulo>
-        <img> ../Imagenes/rdr2.jpg </img>
+<?xml-stylesheet type="text/xsl" href="videojuegos.xslt"?> <!-- Se refiere al archivo XSLT para dar formato a la presentación -->
+<videojuegos> <!-- Contenedor principal que agrupa todos los videojuegos -->
+    <videojuego> <!-- Cada videojuego se representa dentro de este bloque -->
+        <titulo> Red Dead Redemption 2 </titulo> <!-- Título del videojuego -->
+        <img> ../Imagenes/rdr2.jpg </img> <!-- Ruta de la imagen asociada al videojuego -->
         <sinopsis>Red Dead Redemption 2 es un videojuego de acción-aventura de mundo abierto con temática del Salvaje Oeste desarrollado y 
         publicado por Rockstar Games. El juego es la tercera entrega de la serie Red Dead y una precuela del juego de 2010 Red Dead Redemption. 
         La historia está ambientada en una representación ficticia de los Estados Unidos en el Salvaje Oeste y sigue las hazañas de Arthur Morgan, 
         un forajido y miembro de la pandilla de Dutch Van der Linde, que debe lidiar con el declive del Salvaje Oeste mientras intenta sobrevivir 
-        contra las fuerzas gubernamentales, las pandillas rivales y otros adversarios.</sinopsis>
-    </videojuego>
+        contra las fuerzas gubernamentales, las pandillas rivales y otros adversarios.</sinopsis> <!-- Resumen del argumento y temática del juego -->
+    </videojuego> <!-- Este patrón se repetirá para lo que queda de archivo -->
     <videojuego>
         <titulo> The Last of Us: Parte 2 </titulo>
         <img> ../Imagenes/tlou2.jpg </img>
