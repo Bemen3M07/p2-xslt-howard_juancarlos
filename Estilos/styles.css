@@ -97,12 +97,19 @@ footer a:hover {
     background-color: #b30000; /* Rojo más claro en hover */
 }
 
-/* Contenido desplegable */
+/* Contenido del videojuego inicialmente oculto */
 .videojuego-content {
-    display: none;
     margin-top: 10px;
-    padding: 10px;
-    max-width: 1400px;
+    max-height: 0; /* Oculto inicialmente con altura cero */
+    opacity: 0; /* Transparencia para ocultar */
+    overflow: hidden;
+    transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+/* Cuando se despliega el contenido */
+.videojuego-content.show {
+    max-height: 500px; /* Ajusta según el contenido */
+    opacity: 1;
 }
 
 /* Contenedor de información e imagen */

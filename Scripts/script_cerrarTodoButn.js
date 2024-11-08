@@ -1,16 +1,10 @@
 // Función para cerrar todos los desplegables
 function cerrarTodos() {
-    // Selecciona todos los elementos desplegables
+    // Selecciona todos los elementos con la clase 'videojuego-content'
     const contenidos = document.querySelectorAll('.videojuego-content');
     
-    // Recorre todos y los cierra (ocultándolos)
+    // Recorre todos y les quita la clase 'show' para ocultarlos
     contenidos.forEach((contenido) => {
-        contenido.style.display = 'none';
+        contenido.classList.remove('show');
     });
-}
-
-// Función para alternar contenido desplegable (si ya existe, ignórala)
-function toggleContent(id) {
-    const content = document.getElementById(id);
-    content.style.display = (content.style.display === 'none' || content.style.display === '') ? 'block' : 'none';
 }
