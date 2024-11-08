@@ -41,8 +41,13 @@
                             </li>
                         </xsl:for-each>
                     </ol>
+                    
                     <!-- Botón para cerrar todos los contenidos desplegados -->
-                    <button class="closeAllBtn" onclick="cerrarTodos()">Cerrar todos</button>
+                    <button class="Buttons" onclick="cerrarTodos()">Cerrar todos</button>
+                    <a href="formulario.html">
+                        <button class="Buttons">Añadir Videojuego</button>
+                    </a>
+
                 </main>
                 <!-- Pie de página con derechos reservados y contacto -->
                 <footer>
@@ -52,7 +57,7 @@
 
                 <!-- Archivos JavaScript necesarios para el funcionamiento de la página -->
                 <script src="../Scripts/script_cerrarTodoButn.js"></script> <!-- Script que maneja el botón de cerrar todos los desplegables -->
-                <script src="../Scripts/script_desplegable.js"></script> <!-- Script que maneja la cción de desplegar el contenido -->
+                <script src="../Scripts/script_desplegable.js"></script> <!-- Script que maneja la acción de desplegar el contenido -->            
             </body>
         </html>
     </xsl:template>

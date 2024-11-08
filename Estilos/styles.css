@@ -47,7 +47,7 @@ footer a:hover {
 }
 
 /* Estilo para el botón "Cerrar todos" */
-.closeAllBtn {
+.Buttons {
     font-family: 'Bernier', sans-serif; /* Fuente personalizada para el botón */
     background-color: #990000; /* Rojo intenso para el fondo */
     color: #ffe6e6; /* Texto claro */
@@ -62,6 +62,8 @@ footer a:hover {
     float: right; /* Alinea el botón a la derecha */
     margin-right: 35px; /* Margen derecho */
 }
+
+
 
 /* Estilo del hover, es decir, al pasar el cursor por encima el color del botón cambiará */
 .closeAllBtn:hover {
@@ -137,6 +139,87 @@ footer a:hover {
     text-align: justify; /* Justifica el texto */
     color: #4d0000; /* Texto en tono oscuro */
 }
+
+/* Estilos para el formulario */
+.formulario-videojuego {
+    background-color: #fff0f0; /* Fondo suave para el formulario */
+    border-radius: 8px; /* Bordes redondeados */
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin: 20px auto; /* Centrado horizontal */
+    padding: 20px; /* Espaciado interior */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.formulario-videojuego fieldset {
+    border: none; /* Elimina el borde por defecto */
+    padding: 0; /* Elimina el relleno */
+}
+
+.formulario-videojuego legend {
+    font-family: 'Bernier', sans-serif; /* Fuente personalizada */
+    font-size: 1.5em; /* Tamaño de fuente */
+    color: #990000; /* Color rojo intenso */
+    text-align: center; /* Centrado del texto */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+.formulario-videojuego label {
+    font-family: 'Alegreya-Sans', sans-serif; /* Fuente personalizada */
+    font-size: 1.1em; /* Tamaño de la fuente */
+    color: #4d0000; /* Color rojo oscuro */
+    display: block; /* Muestra cada etiqueta en su propia línea */
+    margin-bottom: 5px; /* Espaciado inferior */
+}
+
+.formulario-videojuego input, .formulario-videojuego textarea {
+    width: 97%; /* Hace que los inputs y textarea ocupen el 100% del ancho */
+    padding: 10px; /* Espaciado interior */
+    font-size: 1em; /* Tamaño de fuente */
+    margin-bottom: 15px; /* Espaciado inferior */
+    border: 1px solid #b30000; /* Borde rojo */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #ffe6e6; /* Fondo pastel */
+    color: #4d0000; /* Texto en color rojo oscuro */
+}
+
+.formulario-videojuego textarea {
+    resize: vertical; /* Permite cambiar el tamaño del textarea verticalmente */
+    
+}
+
+.formulario-videojuego button.submit-btn {
+    font-family: 'Bernier', sans-serif; /* Fuente personalizada */
+    background-color: #990000; /* Rojo intenso */
+    color: #fff; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado interior */
+    font-size: 1.2em; /* Tamaño de fuente */
+    border: none; /* Elimina el borde predeterminado */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s ease; /* Transición suave para el hover */
+    width: 100%; /* Ancho completo */
+}
+
+.formulario-videojuego button.submit-btn:hover {
+    background-color: #b30000; /* Rojo más claro al pasar el cursor */
+    
+}
+
+.formulario-videojuego input[type="file"] {
+    font-family: 'Alegreya-Sans', sans-serif; /* Fuente personalizada */
+    color: #4d0000; /* Texto rojo oscuro */
+    padding: 10px; /* Espaciado interior */
+    border: 1px solid #b30000; /* Borde rojo */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #ffe6e6; /* Fondo pastel */
+    margin-bottom: 15px; /* Espaciado inferior */
+    
+}
+
+.formulario-videojuego input[type="file"]:hover {
+    background-color: #ffcccc; /* Fondo más claro al pasar el ratón */
+}
+
 
 /* Fuentes personalizadas */
 @font-face {

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir Nuevo Videojuego</title>
+    <link rel="stylesheet" href="../Estilos/styles.css"> <!-- Enlace a tu archivo CSS -->
+</head>
+<body>
+    <header>
+        <h1>Añadir Nuevo Videojuego</h1>
+    </header>
+
+    <main>
+        <form class="formulario-videojuego">
+            <fieldset>
+                <legend>Agregar un nuevo videojuego</legend>
+        
+                <label for="titulo">Título del videojuego:</label>
+                <input type="text" id="titulo" name="titulo" required>
+        
+                <label for="img">Selecciona una imagen:</label>
+                <input type="file" id="img" name="img" accept="image/*" required>
+
+                <label for="sinopsis">Sinopsis:</label>
+                <textarea id="sinopsis" name="sinopsis" rows="4" required></textarea>
+        
+                <button type="submit" class="submit-btn">Agregar Videojuego</button>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>2024 Lista de Videojuegos. Todos los derechos reservados.</p>
+        <p>Contacto: <a href="mailto:jomech23@bemen3.cat">jomech23@bemen3.cat</a></p>
+    </footer>
+
+</body>
+</html>
